@@ -1,0 +1,71 @@
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(215, 189, 240);
+    padding: 50px;
+    border-radius:10px;
+    box-shadow: 0 0 10px;
+    width: 450px;
+    margin: 0 auto;
+    
+}
+h4 {
+  white-space: nowrap;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}  
+.commande{
+    margin: 10px 0;
+    border: 10;
+    height: 1px;
+}  
+button {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #0e100f;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    
+    
+  }  
+  input, output {
+    padding : 9px;
+    font-size: 16px ;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 96%;
+    margin-top: 10px;
+    
+  }
+  label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #070505;
+   
+
+  }
+  .content{
+  max-width: 400px;
+  margin: 100px ;
+  padding: 100px;
+  flex-direction: column;
+}
+.calculTotal{
+  font-size: 18px;
+  color: #000000;
+  font-weight: bold;
+}   

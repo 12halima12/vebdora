@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mini projet</title>
+  <link rel="stylesheet" href="formulaire.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+
+    <div class="content">
+      
+      <form id="commande"> 
+        <h4>COMMANDER MAINTENANT</h4>
+      <hr>
+        <label for="nom">Nom et prénom </label><br>
+        <input type="text" id="nom" name="nom" placeholder="Entrer votre nom et prénom" required><br><br>
+    
+    
+        <label for="adresse">Adresse</label><br>
+        <input type="text" id="adresse" name="adresse" placeholder="Entrer votre adresse" required><br><br>
+        
+        <label for="adresse">Code postal</label><br>
+        <input type="tel" id="numero" name="adresse" placeholder="Ex : 75000" required><br><br>
+    
+        <label for="numero">Numéro de téléphone</label><br>
+        <input type="tel" id="numero" name="numero" pattern="[0-9]{10}" placeholder="Ex : 0612345678" required><br><br>
+
+        <label for="quantity">Quantité désirée </label><br>
+      <input type="number" id="quantity" name="quantity" min="1" placeholder="Ex : 1" required><br><br>
+
+       <div class="calculTotal" >
+      <label for="total">Total de la commande (en Dh) </label><br><br>
+      <output  id="total" name="total"  ></output><br>
+      
+      </div>  
+
+        <button type="button" id="validCommande">Valider la commande</button><br>
+      </form>
+      </div>
+      
+      
+        
+      
+      
+</body>
+</html>

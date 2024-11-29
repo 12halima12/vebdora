@@ -1,0 +1,74 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/formulaire.html
+Subject: mini projet
+Date: Wed, 27 Nov 2024 21:51:56 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--ll5WVh6CscPxF93H2rbFQ6YjRgd3Ezla8z6UtBgGSh----"
+
+
+------MultipartBoundary--ll5WVh6CscPxF93H2rbFQ6YjRgd3Ezla8z6UtBgGSh----
+Content-Type: text/html
+Content-ID: <frame-A3C499251CEC705B1E20AB7F45E68A10@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/formulaire.html
+
+<!DOCTYPE html><html lang=3D"fr"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+ =20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title>mini projet</title>
+ =20
+<link rel=3D"stylesheet" href=3D"http://127.0.0.1:5500/formulaire.css?_cach=
+eOverride=3D1732740691229"></head>
+<body>
+
+    <form action=3D"http://127.0.0.1:5500/formulaire.html">
+      <h4>COMMANDER MAINTENANT</h4>
+      <hr>
+        <label for=3D"nom">Nom:</label><br>
+        <input type=3D"text" id=3D"nom" name=3D"nom" placeholder=3D"Entrer =
+votre nom" required=3D""><br><br>
+   =20
+        <label for=3D"prenom">Pr=C3=A9nom:</label><br>
+        <input type=3D"text" id=3D"prenom" name=3D"prenom" placeholder=3D"E=
+ntrer votre prenom" required=3D""><br><br>
+   =20
+        <label for=3D"email">Email:</label><br>
+        <input type=3D"email" id=3D"email" name=3D"email" placeholder=3D"En=
+trer votre email" required=3D""><br><br>
+
+        <label for=3D"adresse">Adresse:</label><br>
+        <input type=3D"text" id=3D"adresse" name=3D"adresse" placeholder=3D=
+"Entrer votre adresse" required=3D""><br><br>
+   =20
+        <label for=3D"numero">Num=C3=A9ro de t=C3=A9l=C3=A9phone:</label><b=
+r>
+        <input type=3D"tel" id=3D"numero" name=3D"numero" pattern=3D"[0-9]{=
+10}" placeholder=3D"Ex : 0612345678" required=3D""><br><br>
+   =20
+        <button type=3D"submit">Commander</button>
+      </form>
+<!-- Code injected by live-server -->
+
+
+</body></html>
+------MultipartBoundary--ll5WVh6CscPxF93H2rbFQ6YjRgd3Ezla8z6UtBgGSh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/formulaire.css?_cacheOverride=1732740691229
+
+@charset "utf-8";
+
+body { display: flex; align-items: center; justify-content: center; height:=
+ auto; }
+
+form { display: flex; flex-direction: column; background-color: rgb(215, 18=
+9, 240); padding: 50px; border-radius: 10px; box-shadow: 0px 0px 10px; }
+
+h4 { text-align: center; font-size: 20px; }
+
+hr { margin: 10px 0px; background-color: white; }
+------MultipartBoundary--ll5WVh6CscPxF93H2rbFQ6YjRgd3Ezla8z6UtBgGSh------
